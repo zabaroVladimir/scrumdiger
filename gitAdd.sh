@@ -7,7 +7,7 @@ git add .
 git commit -m "comm"
 
 #push
-git push https://zabarik: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@github.com/zabaroVladimir/Swift2023.git
+git push https://zabarik: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@github.com/zabaroVladimir/scrumdiger.git
 
 #status
 git status
