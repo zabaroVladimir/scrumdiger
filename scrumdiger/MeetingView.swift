@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+
+
 struct MeetingView: View {
     var body: some View {
         VStack {
@@ -28,7 +30,9 @@ struct MeetingView: View {
             .accessibilityLabel("Time remaining")
             .accessibilityValue("10 minutes")
             Circle()
-                .strokeBorder(lineWidth: 24)
+                
+                .strokeBorder(Color.red, lineWidth: 12)
+                
             HStack {
               Text("Speaker 1 of 3")
                 Spacer()
